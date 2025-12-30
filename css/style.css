@@ -59,3 +59,11 @@ main{ padding-top: 3rem; }
   .nav-inline a{ margin: 0 .6rem 0 0; display:inline-block; }
   .projects{ grid-template-columns: 1fr; }
 }
+
+
+/* Project pages */
+.project-page header{ margin: 2.2rem 0 1.6rem 0; }
+.project-page h1{ font-size: 1.35rem; margin: 0 0 .9rem 0; font-weight:600; }
+.project-page .intro{ opacity:.82; max-width: 58rem; line-height: 1.75; }
+.gallery{ display:flex; flex-direction:column; gap: 1.25rem; margin-top: 2rem; }
+.gallery img{ width:100%; height:auto; border-radius: 14px; border: 1px solid rgba(255,255,255,.10); background: rgba(255,255,255,.03); }
